@@ -1492,7 +1492,7 @@ define Device/xiaomi_miwifi-r3
 			     append-ubi | check-size
   DEVICE_VENDOR := Xiaomi
   DEVICE_MODEL := Mi Router R3
-  DEVICE_PACKAGES := kmod-mt76x2 kmod-usb2 kmod-usb-ohci uboot-envtools kmod-nf-conntrack-netlink libnetfilter-conntrack3 kmod-inet-diag kmod-nft-offload
+  DEVICE_PACKAGES := kmod-mt76x2 kmod-usb2 kmod-usb-ohci uboot-envtools kmod-nf-conntrack-netlink libnetfilter-conntrack kmod-inet-diag kmod-nft-offload
 endef
 TARGET_DEVICES += xiaomi_miwifi-r3
 
